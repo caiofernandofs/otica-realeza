@@ -1,16 +1,70 @@
-# React + Vite
+# 👓 Ótica Realeza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page premium desenvolvida para uma ótica moderna, com foco em elegância, sofisticação e experiência do usuário.
 
-Currently, two official plugins are available:
+## 🚀 Deploy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Acesse o projeto online:
 
-## React Compiler
+https://otica-realeza.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+* Layout moderno e responsivo
+* Hero Section com destaque para a marca
+* Seção Sobre Nós
+* Coleções Premium
+* Diferenciais da ótica
+* Marcas parceiras
+* Mapa de localização
+* Formulário de contato
+* Footer completo
+* Animações com Framer Motion
+* Responsividade para dispositivos móveis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+* React
+* Vite
+* JavaScript
+* CSS3
+* Framer Motion
+* React Icons
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido para oferecer uma ótima experiência em:
+
+* Desktop
+* Notebook
+* Tablet
+* Smartphones
+
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+├── components/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── styles/
+```
+
+## 💡 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de aprimorar habilidades em desenvolvimento Front-End, criando uma interface moderna, elegante e totalmente responsiva para uma ótica premium.
+
+## 📸 Preview
+
+Adicione aqui screenshots do projeto.
+
+## 👨‍💻 Autor
+
+Caio Santos
+
+LinkedIn:
+https://www.linkedin.com/in/caiosantos-dev/
+
+GitHub:
+https://github.com/caiofernandofs
