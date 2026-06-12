@@ -1,0 +1,50 @@
+.about {
+  padding: 120px 0;
+  background: #ebeaea;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about span {
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+.about h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin: 15px 0;
+}
+
+.about p {
+  line-height: 1.8;
+  color: #918f8f;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-text,
+  .about-image {
+    width: 100%;
+  }
+
+  .about h2 {
+    font-size: 2.2rem;
+  }
+
+}

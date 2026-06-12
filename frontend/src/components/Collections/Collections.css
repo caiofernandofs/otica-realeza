@@ -1,0 +1,201 @@
+.premium-collections {
+  padding: 140px 0;
+  background: #e3dede;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.section-header span {
+  color: var(--gold);
+  letter-spacing: 3px;
+}
+
+.section-header h2 {
+  font-size: 3.5rem;
+  margin: 20px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.section-header p {
+  color: #999;
+  line-height: 1.8;
+}
+
+.premium-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.premium-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  height: 600px;
+}
+
+.premium-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: .6s;
+}
+
+.premium-card:hover img {
+  transform: scale(1.08);
+}
+
+.premium-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9),
+      rgba(0,0,0,.1)
+    );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  padding: 40px;
+}
+
+.premium-overlay h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.premium-overlay p {
+  color: #d0cfcf;
+}
+
+.premium-overlay button {
+  margin-top: 20px;
+
+  width: fit-content;
+
+  background: transparent;
+  border: 1px solid var(--gold);
+
+  color: var(--gold);
+
+  padding: 12px 24px;
+
+  border-radius: 50px;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.premium-overlay button:hover {
+  background: var(--gold);
+  color: black;
+}
+
+/* ========================= */
+/* TABLET */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+  .premium-collections {
+    padding: 100px 0;
+  }
+
+  .premium-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-header h2 {
+    font-size: 2.8rem;
+  }
+
+  .premium-card {
+    height: 500px;
+  }
+
+}
+
+/* ========================= */
+/* CELULAR */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  .premium-collections {
+    padding: 80px 0;
+  }
+
+  .premium-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section-header {
+    margin-bottom: 50px;
+  }
+
+  .section-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .section-header p {
+    padding: 0 15px;
+  }
+
+  .premium-card {
+    height: 450px;
+  }
+
+  .premium-overlay {
+    padding: 25px;
+  }
+
+  .premium-overlay h3 {
+    font-size: 1.8rem;
+  }
+
+}
+
+/* ========================= */
+/* CELULAR PEQUENO */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .section-header span {
+    font-size: 0.8rem;
+  }
+
+  .premium-card {
+    height: 400px;
+  }
+
+  .premium-overlay {
+    padding: 20px;
+  }
+
+  .premium-overlay h3 {
+    font-size: 1.5rem;
+  }
+
+  .premium-overlay button {
+    width: 100%;
+  }
+
+}

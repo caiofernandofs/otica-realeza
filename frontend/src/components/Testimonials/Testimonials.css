@@ -1,0 +1,40 @@
+.testimonials {
+  padding: 120px 0;
+  background: #e0dfdf;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 25px;
+}
+
+.testimonial-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #c2bdbd;
+}
+
+.stars {
+  color: var(--gold);
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-card p {
+  color: #120f0f;
+  line-height: 1.8;
+}
+
+.testimonial-card h4 {
+  margin-top: 20px;
+  color: rgb(40, 38, 38);
+}
