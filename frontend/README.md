@@ -21,6 +21,7 @@ https://otica-realeza.vercel.app
 * Footer completo
 * Animações com Framer Motion
 * Responsividade para dispositivos móveis
+<<<<<<< HEAD
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -69,3 +70,52 @@ https://www.linkedin.com/in/caiosantos-dev/
 GitHub:
 https://github.com/caiofernandofs
 
+=======
+
+## 🛠️ Tecnologias Utilizadas
+
+* React
+* Vite
+* JavaScript
+* CSS3
+* Framer Motion
+* React Icons
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido para oferecer uma ótima experiência em:
+
+* Desktop
+* Notebook
+* Tablet
+* Smartphones
+
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+├── components/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── styles/
+```
+
+## 💡 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de aprimorar habilidades em desenvolvimento Front-End, criando uma interface moderna, elegante e totalmente responsiva para uma ótica premium.
+
+## 📸 Preview
+
+Adicione aqui screenshots do projeto.
+
+## 👨‍💻 Autor
+
+Caio Santos
+
+LinkedIn:
+https://www.linkedin.com/in/caiosantos-dev/
+
+GitHub:
+https://github.com/caiofernandofs
+>>>>>>> f73517d (add screenshots)
