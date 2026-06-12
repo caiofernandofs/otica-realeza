@@ -1,58 +1,63 @@
 # 👓 Ótica Realeza
 
-![Banner](./screenshots/banner.png)
-
 Landing page premium desenvolvida para uma ótica moderna, com foco em elegância, sofisticação e experiência do usuário.
 
 ## 🚀 Deploy
 
-🔗 https://otica-realeza.vercel.app
+Acesse o projeto online:
+
+https://otica-realeza.vercel.app
 
 ## ✨ Funcionalidades
 
-- Layout moderno e responsivo
-- Hero Section
-- Coleções Premium
-- Diferenciais
-- Marcas Exclusivas
-- Localização via Google Maps
-- Formulário de Contato
-- Animações com Framer Motion
+* Layout moderno e responsivo
+* Hero Section com destaque para a marca
+* Seção Sobre Nós
+* Coleções Premium
+* Diferenciais da ótica
+* Marcas parceiras
+* Mapa de localização
+* Formulário de contato
+* Footer completo
+* Animações com Framer Motion
+* Responsividade para dispositivos móveis
 
-## 📸 Preview do Projeto
+## 🛠️ Tecnologias Utilizadas
 
-### Página Inicial
-
-![Home](./screenshots/home.png)
-
-### Coleções Premium
-
-![Coleções](./screenshots/colecoes.png)
-
-### Diferenciais
-
-![Diferenciais](./screenshots/diferenciais.png)
-
-### Contato
-
-![Contato](./screenshots/contato.png)
-
-## 🛠️ Tecnologias
-
-- React
-- Vite
-- JavaScript
-- CSS3
-- Framer Motion
-- React Icons
+* React
+* Vite
+* JavaScript
+* CSS3
+* Framer Motion
+* React Icons
 
 ## 📱 Responsividade
 
-✔ Desktop
+O projeto foi desenvolvido para oferecer uma ótima experiência em:
 
-✔ Tablet
+* Desktop
+* Notebook
+* Tablet
+* Smartphones
 
-✔ Mobile
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+├── components/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── styles/
+```
+
+## 💡 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de aprimorar habilidades em desenvolvimento Front-End, criando uma interface moderna, elegante e totalmente responsiva para uma ótica premium.
+
+## 📸 Preview
+
+Adicione aqui screenshots do projeto.
 
 ## 👨‍💻 Autor
 
@@ -63,3 +68,4 @@ https://www.linkedin.com/in/caiosantos-dev/
 
 GitHub:
 https://github.com/caiofernandofs
+
