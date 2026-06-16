@@ -136,6 +136,7 @@ VITE_API_URL=http://localhost:3333
 ### Backend
 
 * Render
+* https://otica-realeza-api.onrender.com
 
 ### Banco de Dados
 
@@ -144,6 +145,7 @@ VITE_API_URL=http://localhost:3333
 ### Frontend
 
 * Vercel
+* https://otica-realeza.vercel.app/
 
 ---
 
