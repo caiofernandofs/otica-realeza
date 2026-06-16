@@ -133,6 +133,11 @@ VITE_API_URL=http://localhost:3333
 
 ## 🌐 Deploy
 
+### Frontend
+
+* Vercel
+* https://otica-realeza.vercel.app/
+
 ### Backend
 
 * Render
@@ -142,10 +147,6 @@ VITE_API_URL=http://localhost:3333
 
 * Neon PostgreSQL
 
-### Frontend
-
-* Vercel
-* https://otica-realeza.vercel.app/
 
 ---
 
