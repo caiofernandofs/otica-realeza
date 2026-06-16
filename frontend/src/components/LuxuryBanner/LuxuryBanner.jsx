@@ -15,7 +15,13 @@ function LuxuryBanner() {
         </p>
 
         <button >
-          Agendar Atendimento
+          <a
+            href="https://wa.me/5519999999999?text=Olá! Gostaria de agendar um atendimento."
+            target="_blank"
+            rel="noreferrer"
+          >
+            Agendar Atendimento
+          </a>
         </button>
 
       </div>

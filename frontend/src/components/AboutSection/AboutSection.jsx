@@ -30,10 +30,7 @@ function AboutSection() {
             Nosso compromisso é oferecer uma experiência única,
             unindo qualidade, inovação e cuidado com cada cliente.
           </p>
-
-          <button className="btn-gold">
-            Conheça Nossa História
-          </button>
+          
         </div>
 
         <div className="about-image">

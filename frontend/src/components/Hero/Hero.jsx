@@ -30,12 +30,15 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <button className="btn-gold">
-              Ver Coleções
-            </button>
 
             <button className="btn-whatsapp">
-              Falar no WhatsApp
+              <a
+                href="https://wa.me/5519999999999?text=Olá! Gostaria de agendar um atendimento."
+                target="_blank"
+                rel="noreferrer"
+              >
+                Falar no WhatsApp
+              </a>
             </button>
           </div>
 
